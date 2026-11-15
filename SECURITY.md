@@ -45,7 +45,7 @@ have accepted them. Review the original chat before manually resending anything.
 
 ## Reporting
 
-This local preview has no public security contact configured. Before publishing
-the repository, configure a private vulnerability-reporting channel. Do not
-invent a contact address, post mailbox credentials publicly, or attach live
-mailbox / chat data. Describe issues using synthetic messages and redacted steps.
+Use GitHub's [private vulnerability reporting](https://github.com/pamir-yuan/codex-mail-bridge/security/advisories/new)
+to report a suspected vulnerability to the maintainers. Do not post credentials
+in public issues or attach live mailbox / chat data. Describe issues using
+synthetic messages and redacted steps.
