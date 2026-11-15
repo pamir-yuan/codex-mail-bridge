@@ -1,0 +1,6 @@
+include LICENSE README.md README.zh-CN.md SECURITY.md CONTRIBUTING.md CHANGELOG.md
+recursive-include docs *.md
+recursive-include examples *.example.json
+recursive-include tests *.py
+recursive-include scripts *.py
+global-exclude *.pyc *.pyo *.sqlite* *.db *.log *.eml .DS_Store

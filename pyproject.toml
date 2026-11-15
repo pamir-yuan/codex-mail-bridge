@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-mail-bridge"
+version = "0.1.0"
+description = "Experimental local email notifications and reply routing for Codex Desktop"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Operating System :: MacOS :: MacOS X",
+  "Programming Language :: Python :: 3",
+  "Topic :: Communications :: Email",
+]
+dependencies = []
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.30.0,<2"]
+dev = ["build>=1,<2"]
+
+[project.scripts]
+codex-mail-bridge = "codex_mail_bridge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

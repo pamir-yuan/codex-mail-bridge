@@ -1,0 +1,12 @@
+{
+  "smtp_host": "smtp.example.com",
+  "port": 465,
+  "security": "ssl",
+  "username": "you@example.com",
+  "from": "you@example.com",
+  "to": "you@example.com",
+  "imap_host": "imap.example.com",
+  "imap_port": 993,
+  "mailbox": "INBOX",
+  "poll_seconds": 15
+}
